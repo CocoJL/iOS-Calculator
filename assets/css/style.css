@@ -146,33 +146,43 @@ img {
   border-radius: 50%;
   border: none;
   /* background-color: #8a817c; */
-  background-color: #242423;
+  /* background-color: #242423; */
+  background-color: hsla(119, 3%, 12%, 1);
   font-weight: 300;
   font-size: 2em;
   color: #fff;
 }
 
 .buttons .item1:hover {
-  background-color: #aeabab;
-  opacity: 1;
+  background-color: hsla(119, 3%, 67%, 1);
+}
+
+.buttons .item1:active {
+  background-color: hsla(119, 3%, 77%, 1);
 }
 
 .buttons .item2:hover {
-  background-color: #484843;
-  opacity: 1;
+  background-color: hsla(119, 3%, 35%, 1);
+}
+
+.buttons .item2:active {
+  background-color: hsla(119, 3%, 45%, 1);
 }
 
 .buttons .item3:hover {
-  background-color: #f6bd60;
-  opacity: 1;
+  background-color: hsl(39, 100%, 70%);
+}
+
+.buttons .item3:active {
+  background-color: hsl(39, 100%, 80%);
 }
 
 .buttons .orange {
-  background-color: #ff6700;
+  background-color: hsl(39, 100%, 50%);
 }
 
 .buttons .gray {
-  background-color: #8a817c;
+  background-color: hsla(119, 3%, 57%, 1);
 }
 .buttons .small {
   font-size: 23px;
@@ -203,4 +213,8 @@ img {
   height: 5px;
   width: 125px;
   border-radius: 50px;
+}
+
+.slider-box .slider:hover {
+  background-color: #d9d9d9;
 }
