@@ -26,10 +26,6 @@ h1 {
   font-weight: 400;
 }
 
-img {
-  max-width: 37px;
-  max-height: 20px;
-}
 .container {
   background-color: #000;
   max-height: 45rem;
@@ -52,6 +48,10 @@ img {
   color: #fff;
   height: 20px;
   margin-top: 20px;
+}
+
+.cellular img {
+  height: 15px;
 }
 
 .container .display {
@@ -151,6 +151,7 @@ img {
   font-weight: 300;
   font-size: 2em;
   color: #fff;
+  cursor: pointer;
 }
 
 .buttons .item1:hover {
